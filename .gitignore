@@ -1,3 +1,27 @@
+# Makefile related stuff
+lab?/build
+lab?/*.elf
+lab?/*.elf.bin
+lab?/*.elf.map
+lab?/.vscode/.cortex*
+
+# CMake+QtCreator related stuff
+lab?/CMakeLists.txt.user
+build-lab*
+
+#pdfpc tmp file.
+lecture/micro.pdfpc
+
+# LaTeX
+*.aux
+*.log
+*.fdb_latexmk
+*.fls
+*.out
+
+# Vim
+.*.swp
+
 ### C++ ###
 # Prerequisites
 *.d
